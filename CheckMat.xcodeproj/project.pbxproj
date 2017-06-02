@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8AA4A241EE1892800938909 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AA4A231EE1892800938909 /* main.m */; };
+		C8AA4A271EE1892800938909 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AA4A261EE1892800938909 /* AppDelegate.m */; };
+		C8AA4A2A1EE1892800938909 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AA4A291EE1892800938909 /* ViewController.m */; };
+		C8AA4A2D1EE1892800938909 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8AA4A2B1EE1892800938909 /* Main.storyboard */; };
+		C8AA4A2F1EE1892800938909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8AA4A2E1EE1892800938909 /* Assets.xcassets */; };
+		C8AA4A321EE1892800938909 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8AA4A301EE1892800938909 /* LaunchScreen.storyboard */; };
+		C8AA4A3D1EE1892800938909 /* CheckMatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AA4A3C1EE1892800938909 /* CheckMatTests.m */; };
+		C8AA4A481EE1892800938909 /* CheckMatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AA4A471EE1892800938909 /* CheckMatUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8AA4A391EE1892800938909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8AA4A171EE1892800938909 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8AA4A1E1EE1892800938909;
+			remoteInfo = CheckMat;
+		};
+		C8AA4A441EE1892800938909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8AA4A171EE1892800938909 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8AA4A1E1EE1892800938909;
+			remoteInfo = CheckMat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C8AA4A1F1EE1892800938909 /* CheckMat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckMat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8AA4A231EE1892800938909 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8AA4A251EE1892800938909 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C8AA4A261EE1892800938909 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C8AA4A281EE1892800938909 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C8AA4A291EE1892800938909 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C8AA4A2C1EE1892800938909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8AA4A2E1EE1892800938909 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8AA4A311EE1892800938909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8AA4A331EE1892800938909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8AA4A381EE1892800938909 /* CheckMatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckMatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8AA4A3C1EE1892800938909 /* CheckMatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckMatTests.m; sourceTree = "<group>"; };
+		C8AA4A3E1EE1892800938909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8AA4A431EE1892800938909 /* CheckMatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckMatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8AA4A471EE1892800938909 /* CheckMatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckMatUITests.m; sourceTree = "<group>"; };
+		C8AA4A491EE1892800938909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8AA4A1C1EE1892800938909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8AA4A351EE1892800938909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8AA4A401EE1892800938909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8AA4A161EE1892800938909 = {
+			isa = PBXGroup;
+			children = (
+				C8AA4A211EE1892800938909 /* CheckMat */,
+				C8AA4A3B1EE1892800938909 /* CheckMatTests */,
+				C8AA4A461EE1892800938909 /* CheckMatUITests */,
+				C8AA4A201EE1892800938909 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8AA4A201EE1892800938909 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8AA4A1F1EE1892800938909 /* CheckMat.app */,
+				C8AA4A381EE1892800938909 /* CheckMatTests.xctest */,
+				C8AA4A431EE1892800938909 /* CheckMatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8AA4A211EE1892800938909 /* CheckMat */ = {
+			isa = PBXGroup;
+			children = (
+				C8AA4A251EE1892800938909 /* AppDelegate.h */,
+				C8AA4A261EE1892800938909 /* AppDelegate.m */,
+				C8AA4A281EE1892800938909 /* ViewController.h */,
+				C8AA4A291EE1892800938909 /* ViewController.m */,
+				C8AA4A2B1EE1892800938909 /* Main.storyboard */,
+				C8AA4A2E1EE1892800938909 /* Assets.xcassets */,
+				C8AA4A301EE1892800938909 /* LaunchScreen.storyboard */,
+				C8AA4A331EE1892800938909 /* Info.plist */,
+				C8AA4A221EE1892800938909 /* Supporting Files */,
+			);
+			path = CheckMat;
+			sourceTree = "<group>";
+		};
+		C8AA4A221EE1892800938909 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8AA4A231EE1892800938909 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8AA4A3B1EE1892800938909 /* CheckMatTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8AA4A3C1EE1892800938909 /* CheckMatTests.m */,
+				C8AA4A3E1EE1892800938909 /* Info.plist */,
+			);
+			path = CheckMatTests;
+			sourceTree = "<group>";
+		};
+		C8AA4A461EE1892800938909 /* CheckMatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C8AA4A471EE1892800938909 /* CheckMatUITests.m */,
+				C8AA4A491EE1892800938909 /* Info.plist */,
+			);
+			path = CheckMatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8AA4A1E1EE1892800938909 /* CheckMat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8AA4A4C1EE1892800938909 /* Build configuration list for PBXNativeTarget "CheckMat" */;
+			buildPhases = (
+				C8AA4A1B1EE1892800938909 /* Sources */,
+				C8AA4A1C1EE1892800938909 /* Frameworks */,
+				C8AA4A1D1EE1892800938909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckMat;
+			productName = CheckMat;
+			productReference = C8AA4A1F1EE1892800938909 /* CheckMat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8AA4A371EE1892800938909 /* CheckMatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8AA4A4F1EE1892800938909 /* Build configuration list for PBXNativeTarget "CheckMatTests" */;
+			buildPhases = (
+				C8AA4A341EE1892800938909 /* Sources */,
+				C8AA4A351EE1892800938909 /* Frameworks */,
+				C8AA4A361EE1892800938909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8AA4A3A1EE1892800938909 /* PBXTargetDependency */,
+			);
+			name = CheckMatTests;
+			productName = CheckMatTests;
+			productReference = C8AA4A381EE1892800938909 /* CheckMatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C8AA4A421EE1892800938909 /* CheckMatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8AA4A521EE1892800938909 /* Build configuration list for PBXNativeTarget "CheckMatUITests" */;
+			buildPhases = (
+				C8AA4A3F1EE1892800938909 /* Sources */,
+				C8AA4A401EE1892800938909 /* Frameworks */,
+				C8AA4A411EE1892800938909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8AA4A451EE1892800938909 /* PBXTargetDependency */,
+			);
+			name = CheckMatUITests;
+			productName = CheckMatUITests;
+			productReference = C8AA4A431EE1892800938909 /* CheckMatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8AA4A171EE1892800938909 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Temirlan Merekeyev";
+				TargetAttributes = {
+					C8AA4A1E1EE1892800938909 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = Z92VBSZT25;
+						ProvisioningStyle = Automatic;
+					};
+					C8AA4A371EE1892800938909 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = Z92VBSZT25;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C8AA4A1E1EE1892800938909;
+					};
+					C8AA4A421EE1892800938909 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = Z92VBSZT25;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C8AA4A1E1EE1892800938909;
+					};
+				};
+			};
+			buildConfigurationList = C8AA4A1A1EE1892800938909 /* Build configuration list for PBXProject "CheckMat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8AA4A161EE1892800938909;
+			productRefGroup = C8AA4A201EE1892800938909 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8AA4A1E1EE1892800938909 /* CheckMat */,
+				C8AA4A371EE1892800938909 /* CheckMatTests */,
+				C8AA4A421EE1892800938909 /* CheckMatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8AA4A1D1EE1892800938909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8AA4A321EE1892800938909 /* LaunchScreen.storyboard in Resources */,
+				C8AA4A2F1EE1892800938909 /* Assets.xcassets in Resources */,
+				C8AA4A2D1EE1892800938909 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8AA4A361EE1892800938909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8AA4A411EE1892800938909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8AA4A1B1EE1892800938909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8AA4A2A1EE1892800938909 /* ViewController.m in Sources */,
+				C8AA4A271EE1892800938909 /* AppDelegate.m in Sources */,
+				C8AA4A241EE1892800938909 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8AA4A341EE1892800938909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8AA4A3D1EE1892800938909 /* CheckMatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8AA4A3F1EE1892800938909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8AA4A481EE1892800938909 /* CheckMatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8AA4A3A1EE1892800938909 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8AA4A1E1EE1892800938909 /* CheckMat */;
+			targetProxy = C8AA4A391EE1892800938909 /* PBXContainerItemProxy */;
+		};
+		C8AA4A451EE1892800938909 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8AA4A1E1EE1892800938909 /* CheckMat */;
+			targetProxy = C8AA4A441EE1892800938909 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C8AA4A2B1EE1892800938909 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8AA4A2C1EE1892800938909 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8AA4A301EE1892800938909 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8AA4A311EE1892800938909 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8AA4A4A1EE1892800938909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C8AA4A4B1EE1892800938909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8AA4A4D1EE1892800938909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z92VBSZT25;
+				INFOPLIST_FILE = CheckMat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chekcmat.merekeyev.CheckMat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C8AA4A4E1EE1892800938909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z92VBSZT25;
+				INFOPLIST_FILE = CheckMat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chekcmat.merekeyev.CheckMat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C8AA4A501EE1892800938909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z92VBSZT25;
+				INFOPLIST_FILE = CheckMatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chekcmat.merekeyev.CheckMatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckMat.app/CheckMat";
+			};
+			name = Debug;
+		};
+		C8AA4A511EE1892800938909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z92VBSZT25;
+				INFOPLIST_FILE = CheckMatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chekcmat.merekeyev.CheckMatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckMat.app/CheckMat";
+			};
+			name = Release;
+		};
+		C8AA4A531EE1892800938909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z92VBSZT25;
+				INFOPLIST_FILE = CheckMatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chekcmat.merekeyev.CheckMatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CheckMat;
+			};
+			name = Debug;
+		};
+		C8AA4A541EE1892800938909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z92VBSZT25;
+				INFOPLIST_FILE = CheckMatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chekcmat.merekeyev.CheckMatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CheckMat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8AA4A1A1EE1892800938909 /* Build configuration list for PBXProject "CheckMat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8AA4A4A1EE1892800938909 /* Debug */,
+				C8AA4A4B1EE1892800938909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8AA4A4C1EE1892800938909 /* Build configuration list for PBXNativeTarget "CheckMat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8AA4A4D1EE1892800938909 /* Debug */,
+				C8AA4A4E1EE1892800938909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C8AA4A4F1EE1892800938909 /* Build configuration list for PBXNativeTarget "CheckMatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8AA4A501EE1892800938909 /* Debug */,
+				C8AA4A511EE1892800938909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C8AA4A521EE1892800938909 /* Build configuration list for PBXNativeTarget "CheckMatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8AA4A531EE1892800938909 /* Debug */,
+				C8AA4A541EE1892800938909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8AA4A171EE1892800938909 /* Project object */;
+}
