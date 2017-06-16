@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController 
 
-
+- (void) alertTitle: (NSString*)title
+            Message:(NSString*) message
+             Button:(NSString*) buttonText;
 @end
 

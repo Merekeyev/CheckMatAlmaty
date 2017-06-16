@@ -7,16 +7,38 @@
 //
 
 #import "AppDelegate.h"
-
+#import "AFNetworking.h"
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
-
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        //[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reachabilityChanged:) name:kReachabilityChangedNotification object:nil];
+        NSString *remoteHostName = @"www.google.com";
+        self.hostReachability = [Reachability reachabilityWithHostName:remoteHostName];
+        [self.hostReachability startNotifier];
+        
+        self.internetReachability = [Reachability reachabilityForInternetConnection];
+        [self.internetReachability startNotifier];
+        
+        self.wifiReachability = [Reachability reachabilityForLocalWiFi];
+        [self.wifiReachability startNotifier];
+    }
+    return self;
+}
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+   
+    UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIViewController* loginViewController = [storyboard instantiateViewControllerWithIdentifier:@"ViewController"];
+    self.window.rootViewController = loginViewController;
+
+    
     return YES;
 }
 

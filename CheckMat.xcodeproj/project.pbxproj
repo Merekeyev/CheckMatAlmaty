@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C02E2897E0F5EFF1CF001BE7 /* libPods-CheckMat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F69A4F684720376FCE90F484 /* libPods-CheckMat.a */; };
+		C8483F031EE5838D00724818 /* TMClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C8483F021EE5838D00724818 /* TMClient.m */; };
+		C8483F481EEEB7E000724818 /* TMNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8483F471EEEB7DF00724818 /* TMNewsViewController.m */; };
+		C8483F4B1EF0102100724818 /* TMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8483F4A1EF0102100724818 /* TMDetailViewController.m */; };
+		C8483F4D1EF2B1ED00724818 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8483F4C1EF2B1ED00724818 /* SystemConfiguration.framework */; };
+		C8483F501EF2B23200724818 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C8483F4F1EF2B23200724818 /* Reachability.m */; };
+		C857ADE01EE2F415005697F6 /* TMCabinetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C857ADDF1EE2F415005697F6 /* TMCabinetViewController.m */; };
 		C8AA4A241EE1892800938909 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AA4A231EE1892800938909 /* main.m */; };
 		C8AA4A271EE1892800938909 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AA4A261EE1892800938909 /* AppDelegate.m */; };
 		C8AA4A2A1EE1892800938909 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AA4A291EE1892800938909 /* ViewController.m */; };
@@ -15,6 +22,8 @@
 		C8AA4A321EE1892800938909 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8AA4A301EE1892800938909 /* LaunchScreen.storyboard */; };
 		C8AA4A3D1EE1892800938909 /* CheckMatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AA4A3C1EE1892800938909 /* CheckMatTests.m */; };
 		C8AA4A481EE1892800938909 /* CheckMatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AA4A471EE1892800938909 /* CheckMatUITests.m */; };
+		C8AA4A571EE18B9D00938909 /* TMServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AA4A561EE18B9D00938909 /* TMServerManager.m */; };
+		C8AA4A5A1EE2982300938909 /* TMUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AA4A591EE2982300938909 /* TMUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C750FF76A1D0356459BECFC3 /* Pods-CheckMat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckMat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CheckMat/Pods-CheckMat.debug.xcconfig"; sourceTree = "<group>"; };
+		C8483F011EE5838D00724818 /* TMClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMClient.h; sourceTree = "<group>"; };
+		C8483F021EE5838D00724818 /* TMClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMClient.m; sourceTree = "<group>"; };
+		C8483F461EEEB7DF00724818 /* TMNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMNewsViewController.h; sourceTree = "<group>"; };
+		C8483F471EEEB7DF00724818 /* TMNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMNewsViewController.m; sourceTree = "<group>"; };
+		C8483F491EF0102100724818 /* TMDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDetailViewController.h; sourceTree = "<group>"; };
+		C8483F4A1EF0102100724818 /* TMDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDetailViewController.m; sourceTree = "<group>"; };
+		C8483F4C1EF2B1ED00724818 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C8483F4E1EF2B23200724818 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = "../../../../Downloads/Reachability-master/Reachability.h"; sourceTree = "<group>"; };
+		C8483F4F1EF2B23200724818 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = "../../../../Downloads/Reachability-master/Reachability.m"; sourceTree = "<group>"; };
+		C857ADDE1EE2F415005697F6 /* TMCabinetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMCabinetViewController.h; sourceTree = "<group>"; };
+		C857ADDF1EE2F415005697F6 /* TMCabinetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMCabinetViewController.m; sourceTree = "<group>"; };
 		C8AA4A1F1EE1892800938909 /* CheckMat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckMat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8AA4A231EE1892800938909 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C8AA4A251EE1892800938909 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +72,12 @@
 		C8AA4A431EE1892800938909 /* CheckMatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckMatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8AA4A471EE1892800938909 /* CheckMatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckMatUITests.m; sourceTree = "<group>"; };
 		C8AA4A491EE1892800938909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8AA4A551EE18B9D00938909 /* TMServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMServerManager.h; sourceTree = "<group>"; };
+		C8AA4A561EE18B9D00938909 /* TMServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMServerManager.m; sourceTree = "<group>"; };
+		C8AA4A581EE2982300938909 /* TMUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMUser.h; sourceTree = "<group>"; };
+		C8AA4A591EE2982300938909 /* TMUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMUser.m; sourceTree = "<group>"; };
+		F69A4F684720376FCE90F484 /* libPods-CheckMat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CheckMat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE3ECEC270D76B7AFF65B5A1 /* Pods-CheckMat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckMat.release.xcconfig"; path = "Pods/Target Support Files/Pods-CheckMat/Pods-CheckMat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8483F4D1EF2B1ED00724818 /* SystemConfiguration.framework in Frameworks */,
+				C02E2897E0F5EFF1CF001BE7 /* libPods-CheckMat.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +107,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3876EF93E72C3F0076B8F495 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C750FF76A1D0356459BECFC3 /* Pods-CheckMat.debug.xcconfig */,
+				FE3ECEC270D76B7AFF65B5A1 /* Pods-CheckMat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C857ADDA1EE2F26C005697F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C8AA4A581EE2982300938909 /* TMUser.h */,
+				C8AA4A591EE2982300938909 /* TMUser.m */,
+				C8483F011EE5838D00724818 /* TMClient.h */,
+				C8483F021EE5838D00724818 /* TMClient.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C857ADDB1EE2F277005697F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C8AA4A2B1EE1892800938909 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C857ADDC1EE2F280005697F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C8AA4A281EE1892800938909 /* ViewController.h */,
+				C8AA4A291EE1892800938909 /* ViewController.m */,
+				C857ADDE1EE2F415005697F6 /* TMCabinetViewController.h */,
+				C857ADDF1EE2F415005697F6 /* TMCabinetViewController.m */,
+				C8483F461EEEB7DF00724818 /* TMNewsViewController.h */,
+				C8483F471EEEB7DF00724818 /* TMNewsViewController.m */,
+				C8483F491EF0102100724818 /* TMDetailViewController.h */,
+				C8483F4A1EF0102100724818 /* TMDetailViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C857ADDD1EE2F287005697F6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C8483F4E1EF2B23200724818 /* Reachability.h */,
+				C8483F4F1EF2B23200724818 /* Reachability.m */,
+				C8AA4A551EE18B9D00938909 /* TMServerManager.h */,
+				C8AA4A561EE18B9D00938909 /* TMServerManager.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
 		C8AA4A161EE1892800938909 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +168,8 @@
 				C8AA4A3B1EE1892800938909 /* CheckMatTests */,
 				C8AA4A461EE1892800938909 /* CheckMatUITests */,
 				C8AA4A201EE1892800938909 /* Products */,
+				3876EF93E72C3F0076B8F495 /* Pods */,
+				DC06C5A294938451356AF8CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +186,15 @@
 		C8AA4A211EE1892800938909 /* CheckMat */ = {
 			isa = PBXGroup;
 			children = (
+				C857ADDA1EE2F26C005697F6 /* Model */,
+				C857ADDB1EE2F277005697F6 /* View */,
+				C857ADDC1EE2F280005697F6 /* Controller */,
 				C8AA4A251EE1892800938909 /* AppDelegate.h */,
 				C8AA4A261EE1892800938909 /* AppDelegate.m */,
-				C8AA4A281EE1892800938909 /* ViewController.h */,
-				C8AA4A291EE1892800938909 /* ViewController.m */,
-				C8AA4A2B1EE1892800938909 /* Main.storyboard */,
 				C8AA4A2E1EE1892800938909 /* Assets.xcassets */,
 				C8AA4A301EE1892800938909 /* LaunchScreen.storyboard */,
 				C8AA4A331EE1892800938909 /* Info.plist */,
+				C857ADDD1EE2F287005697F6 /* API */,
 				C8AA4A221EE1892800938909 /* Supporting Files */,
 			);
 			path = CheckMat;
@@ -140,6 +226,15 @@
 			path = CheckMatUITests;
 			sourceTree = "<group>";
 		};
+		DC06C5A294938451356AF8CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8483F4C1EF2B1ED00724818 /* SystemConfiguration.framework */,
+				F69A4F684720376FCE90F484 /* libPods-CheckMat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8AA4A4C1EE1892800938909 /* Build configuration list for PBXNativeTarget "CheckMat" */;
 			buildPhases = (
+				6E30413A122A8355D5798A85 /* [CP] Check Pods Manifest.lock */,
 				C8AA4A1B1EE1892800938909 /* Sources */,
 				C8AA4A1C1EE1892800938909 /* Frameworks */,
 				C8AA4A1D1EE1892800938909 /* Resources */,
+				79D2F78EB4B04B266817389B /* [CP] Embed Pods Frameworks */,
+				458D166D42E820CA9AC4ACCD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +300,7 @@
 		C8AA4A171EE1892800938909 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TM;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Temirlan Merekeyev";
 				TargetAttributes = {
@@ -271,6 +370,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		458D166D42E820CA9AC4ACCD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CheckMat/Pods-CheckMat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E30413A122A8355D5798A85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		79D2F78EB4B04B266817389B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CheckMat/Pods-CheckMat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C8AA4A1B1EE1892800938909 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -278,7 +425,14 @@
 			files = (
 				C8AA4A2A1EE1892800938909 /* ViewController.m in Sources */,
 				C8AA4A271EE1892800938909 /* AppDelegate.m in Sources */,
+				C8483F031EE5838D00724818 /* TMClient.m in Sources */,
+				C857ADE01EE2F415005697F6 /* TMCabinetViewController.m in Sources */,
+				C8483F501EF2B23200724818 /* Reachability.m in Sources */,
 				C8AA4A241EE1892800938909 /* main.m in Sources */,
+				C8AA4A571EE18B9D00938909 /* TMServerManager.m in Sources */,
+				C8483F4B1EF0102100724818 /* TMDetailViewController.m in Sources */,
+				C8483F481EEEB7E000724818 /* TMNewsViewController.m in Sources */,
+				C8AA4A5A1EE2982300938909 /* TMUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +579,7 @@
 		};
 		C8AA4A4D1EE1892800938909 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C750FF76A1D0356459BECFC3 /* Pods-CheckMat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z92VBSZT25;
@@ -437,6 +592,7 @@
 		};
 		C8AA4A4E1EE1892800938909 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE3ECEC270D76B7AFF65B5A1 /* Pods-CheckMat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z92VBSZT25;
@@ -516,6 +672,7 @@
 				C8AA4A4E1EE1892800938909 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8AA4A4F1EE1892800938909 /* Build configuration list for PBXNativeTarget "CheckMatTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +681,7 @@
 				C8AA4A511EE1892800938909 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8AA4A521EE1892800938909 /* Build configuration list for PBXNativeTarget "CheckMatUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +690,7 @@
 				C8AA4A541EE1892800938909 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
